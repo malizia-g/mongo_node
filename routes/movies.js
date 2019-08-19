@@ -6,10 +6,8 @@ var movieController = require('../controllers/movieController');
 router.route('/list/:num')
       .get(movieController.list);
 
-router.route('/query/:title')
+router.route('/movie_from_title/:title')
       .get(movieController.getMovieFromTitle)
 
-router.route('/length_year/:length/:year')
-      .get(movieController.getLength_year)
 
 module.exports = router;
