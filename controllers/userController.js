@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient; //Importo la libreria mongodb
 const uri = "mongodb+srv://fabio:root@cluster0-5s7o1.mongodb.net/test?retryWrites=true&w=majority"; //uri di connessione
-//const client = new MongoClient(uri, { useNewUrlParser: true }); //recupero l'istanza del client
+
 /**
 * La funzione si connette al DB
 * @callbackQuery: E' la funzione di callback che sarà ritornata dopo la connessione al DB
